@@ -1,0 +1,11 @@
+jaffle_shop:
+  target: jaffle_shop
+  outputs:
+    jaffle_shop:
+      type: postgres
+      dbname: docker
+      schema: jaffle_shop
+      host: 127.0.0.1
+      user: root
+      password: password
+      port: 5432
