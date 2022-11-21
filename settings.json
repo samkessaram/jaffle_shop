@@ -1,0 +1,29 @@
+{
+  "sqlfluff.config": ".sqlfluff",
+  "sqlfluff.dialect": "postgres",
+  // "sqlfluff.excludeRules": ["L009"],
+  //   "sqlfluff.executablePath": "fill in",
+  "sqlfluff.ignoreLocalConfig": false,
+  "sqlfluff.ignoreParsing": false,
+  "sqlfluff.rules": [],
+  "sqlfluff.suppressNotifications": false,
+  "sqlfluff.workingDirectory": "",
+  /* Linter */
+  "sqlfluff.linter.arguments": [],
+  "sqlfluff.linter.diagnosticSeverity": "error",
+  "sqlfluff.linter.diagnosticSeverityByRule": [
+    {
+      "rule": "L010",
+      "severity": "warning"
+    }
+  ],
+  // "sqlfluff.linter.lintEntireProject": true,
+  /* Formatter */
+  "sqlfluff.format.arguments": ["--FIX-EVEN-UNPARSABLE"],
+  "sqlfluff.format.enabled": true,
+  "sqlfluff.experimental.format.executeInTerminal": true,
+  "sqlfluff.linter.run": "onSave",
+  "[sql]": {
+    "editor.formatOnSave": false
+  }
+}
